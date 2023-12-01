@@ -1,0 +1,108 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media (min-width: 360px) {
+    header{
+        background-color:burlywood;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 15px solid black;
+        font-size: 15px;
+        background-size: cover;
+    }
+    h1{
+        background-color: white;
+    }
+}
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    a{
+        font-size: 3vw;
+    }
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+
+}
+p{
+    text-align: center;
+
+}
+
+section{
+    flex: 1;
+    min-width: 10px;
+    margin: 10px;
+    padding: 15px;
+    
+    border-radius: 5px;
+
+    text-align: left;
+    
+}
+.s1{
+    text-align: left;
+    border-right: 50px;
+    border-left: 50px;
+
+}
+.s2{
+    border-left: 50px;
+    border-right: 50px;
+    
+}
+.s3{
+    background-color:black;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+@media (min-width:360px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+}
+@media (max-width:600px){
+    main{
+        flex-direction: column;
+    }
+}
+article{
+    background-image: url(./image/jem.webp);
+    color: antiquewhite;
+    background-size: cover;
+   
+    
+}
+
+nav{
+    
+    flex-direction: row;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: burlywood;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
